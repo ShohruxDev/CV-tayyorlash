@@ -20,9 +20,12 @@ function render(data) {
     if (data.length) {
         data.forEach((country) => {
             const div = document.createElement("div");
+            
             div.innerHTML = `
+               <a  class="aria-labell" href=${`../pages/about.html?name=${country.name.common}`}>
                 <img src="${country.flags.svg}" width="264" height="160" alt="${country.flags.alt}"/>
                 <b>${country.name.common}</b>
+               </a>
             `;
             list.append(div);
         });

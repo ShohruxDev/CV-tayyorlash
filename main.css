@@ -51,7 +51,9 @@ body {
   align-items: flex-start;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
-
+.aria-labell{
+  text-decoration: none;
+}
 div {
   display: flex;
   gap: 10px;
@@ -103,8 +105,11 @@ select {
 
 .sf {
   display: flex;
-  width: 80%;
-  justify-content: space-between;
+  width: 100%;
+  justify-content: center;
+  box-shadow: 10px 10px 15px 5px rgba(0, 0, 0, 0.3); /* Includes spread radius */
+  height: 10vh;
+  align-items: center;
 }
 
 .fl {
@@ -114,6 +119,81 @@ select {
 
 .lk {
   display: flex;
+  flex-direction: column;
   width: 100vw;
   justify-content: center;
+}
+
+.po {
+  width: 80%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.bac {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  width: 80%;
+  margin-top: 50px;
+  cursor: pointer;
+}
+
+.sdf {
+  display: flex;
+  align-items: center;
+  width: 80%;
+  justify-content: space-between;
+}
+
+.s1 {
+  width: 30%;
+  height: 40vh;
+  background-image: url(./flag-belgium-big@2x.svg);
+  background-position: center;
+  background-size: cover;
+  background-color: antiquewhite;
+}
+
+.s2 {
+  width: 28%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  height: 30vh;
+  background-color: antiquewhite;
+}
+.s2 b {
+  font-size: 32px;
+}
+
+.s3 {
+  width: 22%;
+  height: 30vh;
+  background-color: antiquewhite;
+}
+
+.ss {
+  display: flex;
+  justify-content: space-between;
+  width: 50%;
+  align-items: center;
+}
+
+.lsf {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+.lsf button {
+  cursor: pointer;
+  padding: 7px 30px;
+  border: none;
+  border: 1px solid rgb(214, 207, 207);
+  background-color: white;
+  transition: a;
+}
+.lsf button:hover {
+  background-color: rgb(225, 211, 211);
 }/*# sourceMappingURL=main.css.map */

@@ -51,13 +51,15 @@ body {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
+    cursor: pointer;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
+
 
 div {
     display: flex;
     gap: 10px;
- 
+    cursor: pointer;
     align-items: center;
 }
 
@@ -85,7 +87,6 @@ select {
     align-items: center;
     width: 100vw;
     height: 100vh;
-    background-color: antiquewhite;
     justify-content: center;
 }
 .wor{
@@ -100,8 +101,11 @@ select {
 }
 .sf{
     display: flex;
-    width: 80%;
-   justify-content: space-between; 
+    width: 100%;
+    justify-content: center;
+    box-shadow: 10px 10px 15px 5px rgba(0, 0, 0, 0.3); 
+    height: 10vh;
+   align-items: center;
 }
 .fl{
     display: flex;
@@ -109,6 +113,71 @@ select {
 }
 .lk{
     display: flex;
+    flex-direction: column;
     width: 100vw;
    justify-content: center;  
+}
+.po{
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.bac{
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    width: 80%;
+    margin-top: 50px;
+    cursor: pointer;
+}
+.sdf{
+    display: flex;
+    align-items: center; 
+    width: 80%; 
+    justify-content: space-between;
+}
+.s1{
+    width: 30%;
+    height: 40vh;
+    background-image: url(./flag-belgium-big@2x.svg);
+    background-position: center;
+    background-size: cover;
+}
+.s2{
+    width: 28%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    height: 30vh;
+    b{
+        font-size: 32px;
+    }
+}
+.s3{
+    width: 22%;
+    height: 30vh;
+}
+.ss{
+    display: flex;
+   justify-content: space-between;
+   width: 50%;
+    align-items: center;
+}
+.lsf{
+    display: flex;
+    align-items: center;
+    margin-left: 200px;
+    gap: 12px;
+    button{             
+        cursor: pointer;
+        padding: 7px 30px;
+        border: none;
+        border: 1px solid rgb(214, 207, 207);
+        background-color: white;
+        transition: all0.3s;
+        &:hover{
+            background-color: rgb(255, 250, 250);   
+        }
+    }
 }
